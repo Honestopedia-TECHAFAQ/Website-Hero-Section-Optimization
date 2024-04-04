@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .hero-section {
+      background-color: #f8f9fa; 
+      padding: 100px 0; 
+      text-align: center;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; 
+      height: 0;
+      overflow: hidden;
+    }
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .custom-form {
+      max-width: 400px;
+      margin: auto;
+    }
+    .cta-section {
+      background-color: #333;
+      color: #fff;
+      padding: 50px 0;
+    }
+    .cta-section h2 {
+      margin-bottom: 20px;
+    }
+    .cta-section p {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="RR_logo_Horiz_Gold-300x65.webp" alt="Your Logo" height="50">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="video-container">
+            <video controls autoplay>
+              <source src="6474253-uhd_3840_2160_25fps.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div style="margin-top: -50px;" class="col-md-6">
+          <form class="p-4 p-md-5 border rounded-3 bg-light custom-form">
+            <h2 class="mb-4">Request a Quote</h2>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button style="background-color: goldenrod; border: none;" type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-section text-center py-5">
+    <div class="container">
+      <h2>Explore More</h2>
+      <p>Check out our gallery or contact us for more information.</p>
+      <a href="#gallery" class="btn btn-primary btn-lg mr-2">Gallery</a>
+      <a href="#contact" class="btn btn-secondary btn-lg">Contact Us</a>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
